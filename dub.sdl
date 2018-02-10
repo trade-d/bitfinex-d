@@ -1,0 +1,7 @@
+name "bitfinex-d"
+description "crypto currency trading platform integration based on vibe.d for bitfinex"
+authors "Stephan Dilly"
+copyright "Copyright © 2018, Stephan Dilly"
+license "MIT"
+targetType "library"
+dependency "vibe-d" version="~>0.8.2"
