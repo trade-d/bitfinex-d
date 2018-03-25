@@ -1,5 +1,11 @@
 language: d
+dist: trusty
 sudo: false
+
+addons:
+  apt:
+    packages:
+      - libevent-dev
 
 d:
   - dmd-nightly
