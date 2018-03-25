@@ -124,6 +124,13 @@ final class Bitfinex : BitfinexPublicAPI, BitfinexPublicAPIv2, BitfinexPrivateAP
         return publicApi.symbols();
     }
 
+    unittest
+    {
+        auto api = new Bitfinex("", "");
+        auto res = api.symbols();
+        assert(res.length > 0);
+    }
+
     ///
     Json accountInfos()
     {
